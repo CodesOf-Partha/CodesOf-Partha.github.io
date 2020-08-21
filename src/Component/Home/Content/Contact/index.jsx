@@ -11,13 +11,13 @@ const Index = () => {
         },
         {
             img: LinkedIn,
-            color:'#105292',
+            color:'#0e76a8',
             redirectLink:'https://www.linkedin.com/in/iampartha/',
             handle:'iampartha'
         },
         {
             img: Twitter,
-            color:'#1776D1',
+            color:'#00acee',
             redirectLink:'https://twitter.com/RvParthasarathi',
             handle:'RvParthasarathi'
         },
@@ -43,10 +43,11 @@ const Index = () => {
     return (
         <div className="component-overall p-3 text-center">
             <h6 className="mb-3">Come let's talk with a cup of coffee!<span role="img" aria-label="!!">☕️😋</span></h6>
-            {data.map((data)=><div className="d-flex justify-content-start pointer-cursor mb-3" onClick={()=>{window.open(data.redirectLink)}}>
-                <data.img style={{color:data.color}} />
-                <div className="pl-2 pointer-link pt-1">{data.handle}</div>
-            </div>)}
+            <ul>
+            {data.map((data)=><li className="pointer-cursor mb-3 text-left" onClick={()=>{window.open(data.redirectLink)}}>
+                <div className="pointer-link pt-1"><span className="pr-2"><data.img style={{color:data.color}} /></span>{data.handle}</div>
+            </li>)}
+            </ul>
         </div>
     )
 }
