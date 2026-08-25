@@ -1,24 +1,30 @@
 import React from 'react';
-import Profile from './Content/Profile';
-import NewsFeed from './Content/NewsFeed';
-import Contact from './Content/Contact';
+import Nav from './Sections/Nav';
+import Hero from './Sections/Hero';
+import About from './Sections/About';
+import Skills from './Sections/Skills';
+import Experience from './Sections/Experience';
+import Projects from './Sections/Projects';
+import Education from './Sections/Education';
+import Contact from './Sections/Contact';
+import Footer from './Sections/Footer';
 
-const Index = () => {
-    return (
-        <div>
-           <div className="row">
-                <div className="col-lg-3 mb-3">
-                   <Profile />
-                </div>
-                <div className="col-lg-6 mb-3">
-                    <NewsFeed />
-                </div>
-                <div className="col-lg-3 mb-3">
-                    <Contact />
-               </div>
-           </div>
-        </div>
-    )
-}
+const Home = () => {
+  return (
+    <div className="page">
+      <Nav />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Education />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
+};
 
-export default Index;
+export default Home;
