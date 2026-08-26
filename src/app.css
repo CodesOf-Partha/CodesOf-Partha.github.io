@@ -734,6 +734,23 @@ img {
   line-height: 1.5;
 }
 
+.info-card__list--certs li {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.info-card__list--certs strong {
+  font-size: 13.5px;
+  color: var(--text);
+  font-family: var(--font-display);
+  font-weight: 500;
+}
+
+.info-card__list--certs .muted {
+  font-size: 12px;
+}
+
 /* ==========================================================================
    Contact
    ========================================================================== */

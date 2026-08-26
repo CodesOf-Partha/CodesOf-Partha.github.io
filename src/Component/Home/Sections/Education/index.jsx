@@ -46,9 +46,14 @@ const Education = () => {
               <BadgeIcon size={18} />
             </div>
             <h3>Certifications</h3>
-            <ul className="info-card__list">
+            <ul className="info-card__list info-card__list--certs">
               {profile.certifications.map((cert) => (
-                <li key={cert}>{cert}</li>
+                <li key={cert.name}>
+                  <strong>{cert.name}</strong>
+                  <span className="muted">
+                    {cert.issuer} · {cert.date}
+                  </span>
+                </li>
               ))}
             </ul>
           </div>

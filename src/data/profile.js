@@ -166,10 +166,12 @@ const profile = {
   ],
 
   certifications: [
-    'AWSome Day Online Conference',
-    'EMC Academic Associate',
-    'Machine Learning Crash Course (MLCC)',
-    'Intelligent Systems',
+    { name: 'Microsoft AI Tour — Bengaluru', issuer: 'Global AI Community', date: 'Feb 2024' },
+    { name: 'Regional Mentoring Session for POC', issuer: "MHRD's Innovation Cell", date: 'Jul 2019' },
+    { name: 'Machine Learning Crash Course (MLCC)', issuer: 'Google', date: 'Dec 2018' },
+    { name: 'AWSome Day Online Conference', issuer: 'Amazon Web Services (AWS)', date: 'Oct 2018' },
+    { name: 'EMC Academic Associate', issuer: 'Dell EMC', date: 'Mar 2017' },
+    { name: 'Intelligent Systems', issuer: 'Intel', date: 'Feb 2016' },
   ],
 
   awards: [
