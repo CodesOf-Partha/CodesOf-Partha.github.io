@@ -13,13 +13,24 @@
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1"
   },
+  "devDependencies": {
+    "react-snap": "^1.23.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "reactSnap": {
+    "source": "build",
+    "destination": "build",
+    "inlineCss": true,
+    "puppeteerArgs": ["--no-sandbox"],
+    "puppeteerExecutablePath": "./.chrome-cache/chrome/mac_arm-152.0.7977.64/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
   },
   "eslintConfig": {
     "extends": "react-app"

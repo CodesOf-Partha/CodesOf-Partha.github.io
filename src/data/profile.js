@@ -14,12 +14,12 @@ const profile = {
   resume: `${process.env.PUBLIC_URL}/resume/Parthasarathi_RV.pdf`,
 
   summary:
-    "Senior full-stack engineer with 6.5+ years building and leading production systems in React, Next.js, Node.js, TypeScript, and Python across ed-tech and B2B SaaS. Currently SDE-IV at Bhanzu, leading a team of five engineers and owning platform architecture across microservices, AWS, and Kubernetes. I specialize in applied Generative AI — designing and shipping LLM-powered products, from RAG chatbots to automated content pipelines, that have replaced multi-team manual workflows with single-minute automation.",
+    "Senior full-stack engineer with 7+ years building and leading production systems in React, Next.js, Node.js, TypeScript, and Python across ed-tech and B2B SaaS. Currently SDE-IV at Bhanzu, leading a team of five engineers and owning platform architecture across microservices, AWS, and Kubernetes. I specialize in applied Generative AI — designing and shipping LLM-powered products, from RAG chatbots to automated content pipelines, that have replaced multi-team manual workflows with single-minute automation reaching 80% team adoption.",
 
   highlights: [
-    { value: '6.5+', label: 'Years of experience' },
+    { value: '7+', label: 'Years of experience' },
     { value: '5', label: 'Engineers led' },
-    { value: '5', label: 'Platforms built from scratch' },
+    { value: '80%', label: 'Adoption on AI Writer' },
     { value: '1 min', label: 'Automated a 5-team workflow' },
   ],
 
@@ -75,10 +75,10 @@ const profile = {
       location: 'Bengaluru, India',
       period: 'May 2022 — Aug 2025',
       bullets: [
-        'Built and owned Admin Panel, Student Dashboard, CLM Dashboard, LiveOps Dashboard, and Maverick from scratch using React, TypeScript, Next.js, Playwright, and Python (Flask & FastAPI) on a microservices architecture (AWS Lambda, S3, API Gateway, DynamoDB, ECR, SQS, Secrets Manager; Docker/Kubernetes/ArgoCD for deployment).',
+        'Built and owned Admin Panel, Student Dashboard, and CLM Dashboard from scratch using React, TypeScript, Next.js, Playwright, and Python (Flask & FastAPI) on a microservices architecture (AWS Lambda, S3, API Gateway, DynamoDB, ECR, SQS, Secrets Manager; Docker/Kubernetes/ArgoCD for deployment). Ran the build on an Agile/Scrum cadence and profiled the stack for performance, cutting page-load times and API response times and speeding up release velocity across the platform suite.',
         'Designed and shipped DoubtGPT, a curriculum-grounded RAG chatbot (OpenAI + LangChain) that resolves student doubts in real time; iterated on fine-tuning to improve response accuracy.',
         'Built Ed-Reels, an OpenAI + Manim pipeline that auto-generates short-form math explainer videos for students.',
-        "Won a company hackathon for Bhanzu's AI Writer: an OpenAI-powered tool that generates session summaries, video scripts, and question banks — collapsing a process previously done by five teams into a one-minute automated run; extended it to auto-build full curricula by grade and topic.",
+        "Won a company hackathon for Bhanzu's AI Writer: an OpenAI-powered tool that generates session summaries, video scripts, and question banks, cutting curriculum-design work previously requiring ~40 core employees down to a one-minute automated run and reaching 80% adoption across curriculum teams; extended it to auto-build full curricula by grade and topic.",
       ],
     },
     {
@@ -122,7 +122,7 @@ const profile = {
     {
       name: "Bhanzu AI Writer",
       blurb:
-        'OpenAI-powered authoring tool that generates session summaries, video scripts, and question banks — collapsing a five-team manual process into a one-minute automated run. Extended to auto-build full curricula by grade and topic.',
+        'OpenAI-powered authoring tool that generates session summaries, video scripts, and question banks — cutting curriculum-design work previously requiring ~40 core employees down to a one-minute automated run, with 80% adoption across curriculum teams. Extended to auto-build full curricula by grade and topic.',
       tags: ['OpenAI API', 'Prompt Engineering', 'Python', 'React'],
       tag_label: 'Hackathon Winner',
     },
@@ -136,7 +136,7 @@ const profile = {
     {
       name: 'Bhanzu Platform Suite',
       blurb:
-        'Admin Panel, Student Dashboard, CLM Dashboard, LiveOps Dashboard, and Maverick — five internal platforms built from scratch on a shared microservices architecture spanning React/Next.js on the front end and Flask/FastAPI on the back end.',
+        'Admin Panel, Student Dashboard, and CLM Dashboard — built from scratch on a shared microservices architecture spanning React/Next.js on the front end and Flask/FastAPI on the back end. Agile/Scrum delivery and performance work cut page-load times and API response times platform-wide.',
       tags: ['React', 'TypeScript', 'Next.js', 'AWS Lambda', 'DynamoDB', 'Kubernetes'],
       tag_label: 'Platform',
     },

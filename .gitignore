@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/.chrome-cache
 /.pnp
 .pnp.js
 
