@@ -9,7 +9,7 @@ const Experience = () => {
     <section id="experience" className="section reveal" ref={ref}>
       <div className="section__inner">
         <p className="section__eyebrow">Experience</p>
-        <h2 className="section__title">6.5+ years of shipping production systems</h2>
+        <h2 className="section__title">7+ years of shipping production systems</h2>
         <ol className="timeline">
           {profile.experience.map((job) => (
             <li className="timeline__item" key={`${job.role}-${job.period}`}>
