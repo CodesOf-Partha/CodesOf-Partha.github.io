@@ -14,7 +14,7 @@ const profile = {
   resume: `${process.env.PUBLIC_URL}/resume/Parthasarathi_RV.pdf`,
 
   summary:
-    "Senior full-stack engineer with 7+ years building and leading production systems in React, Next.js, Node.js, TypeScript, and Python across ed-tech and B2B SaaS. Currently SDE-IV at Bhanzu, leading a team of five engineers and owning platform architecture across microservices, AWS, and Kubernetes. I specialize in applied Generative AI — designing and shipping LLM-powered products, from RAG chatbots to automated content pipelines, that have replaced multi-team manual workflows with single-minute automation reaching 80% team adoption.",
+    "Senior full-stack engineer with 7+ years building and leading production systems in React, Next.js, Node.js, TypeScript, and Python across ed-tech and B2B SaaS. Currently SDE-IV at Bhanzu, leading a team of five engineers and owning platform architecture across microservices, AWS, and Kubernetes. I specialize in applied Generative AI - designing and shipping LLM-powered products, from RAG chatbots to automated content pipelines, that have replaced multi-team manual workflows with single-minute automation reaching 80% team adoption.",
 
   highlights: [
     { value: '7+', label: 'Years of experience' },
@@ -62,7 +62,7 @@ const profile = {
       role: 'Software Development Engineer IV',
       company: 'Bhanzu',
       location: 'Bengaluru, India',
-      period: 'Aug 2025 — Present',
+      period: 'Aug 2025 - Present',
       current: true,
       bullets: [
         "Lead a team of 5 engineers (4 SDE-I, 1 SDE-II) owning platform architecture, code quality, scalability, and security across the company's core products.",
@@ -73,7 +73,7 @@ const profile = {
       role: 'Software Development Engineer III',
       company: 'Bhanzu',
       location: 'Bengaluru, India',
-      period: 'May 2022 — Aug 2025',
+      period: 'May 2022 - Aug 2025',
       bullets: [
         'Built and owned Admin Panel, Student Dashboard, and CLM Dashboard from scratch using React, TypeScript, Next.js, Playwright, and Python (Flask & FastAPI) on a microservices architecture (AWS Lambda, S3, API Gateway, DynamoDB, ECR, SQS, Secrets Manager; Docker/Kubernetes/ArgoCD for deployment). Ran the build on an Agile/Scrum cadence and profiled the stack for performance, cutting page-load times and API response times and speeding up release velocity across the platform suite.',
         'Designed and shipped DoubtGPT, a curriculum-grounded RAG chatbot (OpenAI + LangChain) that resolves student doubts in real time; iterated on fine-tuning to improve response accuracy.',
@@ -82,20 +82,20 @@ const profile = {
       ],
     },
     {
-      role: 'Software Development Engineer II — EngageWith',
+      role: 'Software Development Engineer II - EngageWith',
       company: 'Springworks Inc.',
       location: 'Santa Monica, CA (Remote)',
-      period: 'Apr 2021 — May 2022',
+      period: 'Apr 2021 - May 2022',
       bullets: [
         'Served as Scrum Master and full-stack lead for EngageWith, a Slack/Microsoft Teams employee-recognition and rewards platform, using the MERN stack, AWS, and Gatsby.',
         'Drove SEO optimization and front-end performance best practices across the product.',
       ],
     },
     {
-      role: 'Software Development Engineer I — EngageWith',
+      role: 'Software Development Engineer I - EngageWith',
       company: 'Springworks Inc.',
       location: 'Santa Monica, CA (Remote)',
-      period: 'Sep 2019 — Mar 2021',
+      period: 'Sep 2019 - Mar 2021',
       bullets: [
         'Full-stack developer on EngageWith (MERN stack); integrated the Stripe Customer Portal for subscription payments and xoxoday for reward redemption.',
       ],
@@ -104,9 +104,9 @@ const profile = {
       role: 'Research & Development Intern',
       company: 'Indian Institute of Technology, Madras',
       location: 'Chennai, India',
-      period: 'Feb 2019 — Aug 2019',
+      period: 'Feb 2019 - Aug 2019',
       bullets: [
-        'Implemented GLCM and RANSAC-based computer vision algorithms to unwrap and stitch robot-captured video into 3D reconstructions of inspected pipelines — the core technology later commercialized as Solinas Integrity.',
+        'Implemented GLCM and RANSAC-based computer vision algorithms to unwrap and stitch robot-captured video into 3D reconstructions of inspected pipelines - the core technology later commercialized as Solinas Integrity.',
       ],
     },
   ],
@@ -122,7 +122,7 @@ const profile = {
     {
       name: "Bhanzu AI Writer",
       blurb:
-        'OpenAI-powered authoring tool that generates session summaries, video scripts, and question banks — cutting curriculum-design work previously requiring ~40 core employees down to a one-minute automated run, with 80% adoption across curriculum teams. Extended to auto-build full curricula by grade and topic.',
+        'OpenAI-powered authoring tool that generates session summaries, video scripts, and question banks - cutting curriculum-design work previously requiring ~40 core employees down to a one-minute automated run, with 80% adoption across curriculum teams. Extended to auto-build full curricula by grade and topic.',
       tags: ['OpenAI API', 'Prompt Engineering', 'Python', 'React'],
       tag_label: 'Hackathon Winner',
     },
@@ -136,7 +136,7 @@ const profile = {
     {
       name: 'Bhanzu Platform Suite',
       blurb:
-        'Admin Panel, Student Dashboard, and CLM Dashboard — built from scratch on a shared microservices architecture spanning React/Next.js on the front end and Flask/FastAPI on the back end. Agile/Scrum delivery and performance work cut page-load times and API response times platform-wide.',
+        'Admin Panel, Student Dashboard, and CLM Dashboard - built from scratch on a shared microservices architecture spanning React/Next.js on the front end and Flask/FastAPI on the back end. Agile/Scrum delivery and performance work cut page-load times and API response times platform-wide.',
       tags: ['React', 'TypeScript', 'Next.js', 'AWS Lambda', 'DynamoDB', 'Kubernetes'],
       tag_label: 'Platform',
     },
@@ -150,7 +150,7 @@ const profile = {
     {
       name: 'Pipeline 3D Reconstruction',
       blurb:
-        'Research internship at IIT Madras implementing GLCM and RANSAC-based computer vision to unwrap and stitch robot-captured video into 3D reconstructions of inspected pipelines — later commercialized as Solinas Integrity.',
+        'Research internship at IIT Madras implementing GLCM and RANSAC-based computer vision to unwrap and stitch robot-captured video into 3D reconstructions of inspected pipelines - later commercialized as Solinas Integrity.',
       tags: ['Computer Vision', 'GLCM', 'RANSAC', 'Research'],
       tag_label: 'Research',
     },
@@ -160,13 +160,13 @@ const profile = {
     {
       degree: 'Bachelor of Engineering, Computer Science and Engineering',
       school: 'Anna University (AIT)',
-      period: '2015 — 2019',
+      period: '2015 - 2019',
       note: 'CGPA 7.5 · Best Outgoing Student · President, Rotaract Club',
     },
   ],
 
   certifications: [
-    { name: 'Microsoft AI Tour — Bengaluru', issuer: 'Global AI Community', date: 'Feb 2024' },
+    { name: 'Microsoft AI Tour - Bengaluru', issuer: 'Global AI Community', date: 'Feb 2024' },
     { name: 'Regional Mentoring Session for POC', issuer: "MHRD's Innovation Cell", date: 'Jul 2019' },
     { name: 'Machine Learning Crash Course (MLCC)', issuer: 'Google', date: 'Dec 2018' },
     { name: 'AWSome Day Online Conference', issuer: 'Amazon Web Services (AWS)', date: 'Oct 2018' },
@@ -175,14 +175,14 @@ const profile = {
   ],
 
   awards: [
-    'Hackathon Winner — Rethink Passion & Bhanzu (AI Writer)',
+    'Hackathon Winner - Rethink Passion & Bhanzu (AI Writer)',
     'Best Project Award',
     'Best Presenter, Student League at IIT Madras',
   ],
 
   publications: [
     {
-      title: 'Hypaponics — Monitoring and Controlling using Internet of Things and Machine Learning',
+      title: 'Hypaponics - Monitoring and Controlling using Internet of Things and Machine Learning',
     },
   ],
 };
